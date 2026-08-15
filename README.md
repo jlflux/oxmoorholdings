@@ -10,7 +10,8 @@ Everything you'll want to change lives in `index.html`:
 - **Ventures** — the `<ul class="ventures">` block, marked with an `EDIT HERE`
   comment. One `<li class="venture">` per business. If a venture has no website
   of its own, delete the `<a>` wrapper and leave the plain name.
-- **Contact address** — the `mailto:` link in the `<footer>`.
+- **Contact address** — the `mailto:` link in the contact section, above the
+  footer.
 - **Intro line** — the `<p class="lede">` under the wordmark.
 
 ## Local preview

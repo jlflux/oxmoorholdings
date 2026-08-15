@@ -129,6 +129,29 @@
     font-size: 0.9375rem;
   }
 
+  /* ---------- contact ---------- */
+
+  .contact-line {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.375rem, 4vw, 1.625rem);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    margin: 1.25rem 0 0;
+  }
+
+  .contact-email {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--ink-muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    transition: border-color 0.15s ease;
+  }
+
+  .contact-email:hover,
+  .contact-email:focus-visible { border-bottom-color: var(--accent); }
+
   /* ---------- footer ---------- */
 
   footer {
@@ -208,9 +231,12 @@
 
   </ul>
 
+  <h2 class="section-label">Contact</h2>
+  <p class="contact-line">Let&rsquo;s dream together.</p>
+  <a class="contact-email" href="mailto:jl@fluxmedia.org">jl@fluxmedia.org</a>
+
   <footer>
     <span>&copy; <span id="year">2026</span> Lunceford Holdings</span>
-    <a href="mailto:hello@luncefordholdings.com">hello@luncefordholdings.com</a>
   </footer>
 
 </main>
